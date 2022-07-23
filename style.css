@@ -49,4 +49,5 @@ h3{
     width: 250px;
     color: white;
     border: 1px solid white;
+    cursor: pointer;
 }
