@@ -1,6 +1,7 @@
 let input = document.querySelector("#input")
 let button = document.querySelector("#mybtn")
 let todo = document.querySelector("#container")
+let reset = document.querySelector("#clear")
 
 //creating an array to store the values
 let todos = []
@@ -21,5 +22,11 @@ function addTodo(){
     todos.push(input.value)
     rendering()
 }
+
+function clear(){
+    todo.innerText = ""
+}
+
+reset.addEventListener("click",clear)
 
 button.addEventListener("click",addTodo)
