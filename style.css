@@ -45,14 +45,15 @@ body{
 h3{
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: rgb(7, 5, 19);
     width: 250px;
-    height: 70px;
+    height: 85px;
     color: white;
-    border: 1px solid white;
+    border: 1px solid rgb(187, 187, 187);
     cursor: pointer;
     margin-top: 10px;
     margin-bottom: 5px;
+    border-radius: 15px;
 }
 
 #clear{
@@ -63,4 +64,12 @@ h3{
     font-weight: bold;
     border-radius: 30px;
     margin: 5px 0 10px 0;
+}
+
+.image{
+    height: 70px;
+}
+
+.del{
+    height: 40px;
 }
