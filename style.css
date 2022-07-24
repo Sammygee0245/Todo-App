@@ -27,12 +27,14 @@ body{
     margin: 10px 0 10px 0;
     width: 80%;
     height: 25px;
+    font-size: 17px;
 }
 
 #date{
     margin: 10px 0 10px 0;
     width: 70%;
     height: 25px;
+    font-size: 17px;
 }
 
 #mybtn{
@@ -57,7 +59,7 @@ h3{
     display: flex;
     justify-content: center;
     background-color: rgb(7, 5, 19);
-    width: 250px;
+    width: 90%;
     height: 85px;
     color: white;
     border: 1px solid rgb(187, 187, 187);
