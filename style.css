@@ -47,9 +47,12 @@ h3{
     justify-content: center;
     background-color: black;
     width: 250px;
+    height: 70px;
     color: white;
     border: 1px solid white;
     cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 #clear{
