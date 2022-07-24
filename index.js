@@ -24,7 +24,8 @@ function addTodo(){
 }
 
 function clear(){
-    todo.innerText = ""
+    todos = empty=[]
+    todo.innerText = todos
 }
 
 reset.addEventListener("click",clear)
