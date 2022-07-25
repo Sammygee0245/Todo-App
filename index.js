@@ -32,17 +32,10 @@ function rendering(){
         element.appendChild(deletebtn)
         deletebtn.style = "height:20px; margin-left:17px; margin-top:20px;"
         todo.appendChild(element)
-
-    deletebtn.addEventListener("click", dell)
-
     })
+
 }
 
-
-function dell(){
-    element.innerText = ""
-    console.log("deleted")
-}
 
 function addTodo(){
     todos.push(date.value+"__"+input.value)
